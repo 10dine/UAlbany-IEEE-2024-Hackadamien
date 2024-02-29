@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+  <a href="/contact">Go to contact page</a>
+  <a href="/winners">Go to winner page</a>
+  <h1>Under construction!</h1>
+
