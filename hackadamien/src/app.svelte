@@ -3,8 +3,8 @@
     import Home from './routes/Home.svelte';
     import Contact from './routes/contact.svelte';
     import Winner from './routes/winners/winners.svelte';
-  </script>
-  
+</script>
+
   <Router>
     <nav>
       <Link to="/">Home</Link>
