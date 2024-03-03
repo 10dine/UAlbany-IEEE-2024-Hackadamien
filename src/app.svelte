@@ -1,7 +1,11 @@
 <script>
+    // @ts-ignore
     import { Router, Route, Link } from 'svelte-routing';
+    // @ts-ignore
     import Home from './routes/Home.svelte';
+    // @ts-ignore
     import Contact from './routes/contact.svelte';
+    // @ts-ignore
     import Winner from './routes/winners/winners.svelte';
 </script>
 
