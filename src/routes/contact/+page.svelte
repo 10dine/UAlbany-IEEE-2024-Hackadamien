@@ -1,16 +1,21 @@
 <style>
-    .IEEEImage {
-        width: 430px;
+    .HackathonImage{
+        width: 80%;
         height: 120px;
         align-items: center;
     }
-    
+
     main {
         padding: 20;
     }
 
+    .Logo{
+        width: 100px;
+        height: 35px;
+    }
+
     header {
-        background-color: #3c445c;
+        background-color: rgba(0,0,0,0);
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: left;
@@ -43,15 +48,16 @@
     }
 </style>
 <main>
-    <div>
-        <img class="IEEEImage" src="/IEEE Logo Yellow.png" alt="IEEE Logo">
-    </div>
     <header>
+        <img class="Logo" src = "/IEEE Logo Yellow.png" alt="IEEE Logo">
         <div class="header-text">
             <span class="headersss"> <a href="/">Homepage</a></span>
             <span class="headersss"><a href="/winners">Winners Page</a></span>
         </div>
     </header>
+    <div>
+        <img class="HackathonImage" src="/hackadamien.png" alt="HACK-A-DAMIEN">
+    </div>
     <div class="background"></div>
     <div class="main">
         <div>
@@ -65,4 +71,47 @@
             <p><a href="mailto:vjiang@albany.edu" target="_blank">Vincent Jiang</a>(Director of CS Affairs): vjiang@albany.edu</p>
         </div>
     </div>
+    <!-- Temp solution to color Distortion -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 </main>

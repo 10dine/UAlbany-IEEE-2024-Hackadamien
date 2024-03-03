@@ -10,12 +10,17 @@
         align-items: center;
     }
 
+    .Logo{
+        width: 100px;
+        height: 35px;
+    }
+
     main {
         padding: 20;
     }
 
     header {
-        background-color: #3c445c;
+        background-color: rgba(0,0,0,0);
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: left;
@@ -42,22 +47,23 @@
         border: 1px solid #1f1f1f;
         border-radius: 5px;
     }
-    
+
     .headersss:hover {
         background-color: rgba(255, 255, 255, 0.1);
     }
 </style>
 
 <main>
-    <div>
-        <img class="HackathonImage" src="/hackadamien.png" alt="HACK-A-DAMIEN">
-    </div>
     <header>
+        <img class="Logo" src = "/IEEE Logo Yellow.png" alt="IEEE Logo">
         <div class="header-text">
             <span class="headersss"><a href="/contact">Contact</a></span>
             <span class="headersss"><a href="/winners">Winners</a></span>
         </div>
     </header>
+    <div>
+        <img class="HackathonImage" src="/hackadamien.png" alt="HACK-A-DAMIEN">
+    </div>
     <div class="background"></div>
     <div>
         <p>Date: {date}</p>
