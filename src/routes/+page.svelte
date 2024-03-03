@@ -1,6 +1,5 @@
 <script>
-    //let name = "HACK-A-DAMIEN";
-    let date = "April 12?, 2024"; // I forgot the date, change later
+    let date = "April 13-14th, 2024";
     let location = "ETEC Building, University at Albany";
 </script>
 
@@ -14,12 +13,6 @@
     main {
         padding: 20;
     }
-
-    /*
-    .background::before {
-        background-color: #3c445c;
-    }
-    */
 
     header {
         background-color: #3c445c;
@@ -37,7 +30,7 @@
         flex-grow:1;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 5%;
+        padding-left: 2.5%;
     }
 
     .headersss {
@@ -66,8 +59,41 @@
     <div>
         <p>Date: {date}</p>
         <p>Location: {location}</p>
+    </div>
+    <div class="main">
+        <div id="Team">
+            <h2>Team</h2>
+            <p>1-4 people</p>
+        </div>
+        <div id="Theme">
+            <h2>Theme</h2>
+            <p>Same Level, different challenges</p>
+            <p>Ex. BTD, Tetris</p>
+        </div>
+        <div id="Registration Process">
+            <h2>Registration Process</h2>
+            <p>First and Last Name</p>
+            <p>Email</p>
+            <p></p>
+        </div>
+    </div>
+    <div class="Schedule">
+        <h2>Schedule</h2>
+        <p>Brainstorm Ideas - 4/13 9AM</p>
+        <p>Submit Idea - 4/13 10:50AM</p>
+        <p>Opening Ceremony - 4/13 11AM</p>
+        <p>Participants will begin their projects - 4/13 12PM</p>
+        <p></p>
+        <p>Participants can begin turning in projects - 4/14 9AM</p>
+        <p>Final project due time - 4/14 12PM</p>
+        <p>Presentation/Judging period - 4/14 1PM-3PM</p>
+    </div>
+    <div class="Sponsors">
+        <h2>Sponsors</h2>
+        <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
+    </div>
+    <div>
+        <h2>Communications</h2>
         <p>Join the <a href="https://discord.gg/S5rjbnrPUK" target="_blank">Discord</a></p>
     </div>
-    <div class="main"></div>
-    <div class="end"></div> <!-- FILL SPONSOR INFO HERE -->
 </main>
