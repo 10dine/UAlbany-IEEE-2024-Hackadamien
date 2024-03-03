@@ -1,3 +1,8 @@
-<a href="/contact">Go to contact page</a>
-<a href="/">Go to Homepage</a>
-<h1>Under construction!</h1>
+<main>
+    <header>
+        <a href="/">Homepage</a>
+        <a href="/contact">Contact Page</a>
+    </header>
+    <h1>Welcome to the Winner's page</h1>
+    <p>The winners of each category will be posted shortly after the Hack-A-Damien is over</p>
+</main>
