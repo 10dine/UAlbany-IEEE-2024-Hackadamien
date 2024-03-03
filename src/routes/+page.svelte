@@ -42,13 +42,16 @@
         border: 1px solid #1f1f1f;
         border-radius: 5px;
     }
+    
     .headersss:hover {
         background-color: rgba(255, 255, 255, 0.1);
     }
 </style>
 
 <main>
-    <img class="HackathonImage" src="/hackadamien.png" alt="HACK-A-DAMIEN">
+    <div>
+        <img class="HackathonImage" src="/hackadamien.png" alt="HACK-A-DAMIEN">
+    </div>
     <header>
         <div class="header-text">
             <span class="headersss"><a href="/contact">Contact</a></span>
@@ -72,9 +75,7 @@
         </div>
         <div id="Registration Process">
             <h2>Registration Process</h2>
-            <p>First and Last Name</p>
-            <p>Email</p>
-            <p></p>
+            <p>Coming soon...</p>
         </div>
     </div>
     <div class="Schedule">
