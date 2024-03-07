@@ -7,12 +7,12 @@
     
 
     .HackathonImage{
-        width: 83%;
         max-width: 100%;
         height: auto;
         align-items: center;
         display: block;
         margin: 0 auto;
+        max-height: 200px;
     }
 
     .Logo{
@@ -103,7 +103,7 @@
         transform-style: preserve-3d;
         border-radius: 1rem;
         box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgb(241, 240, 240);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -132,8 +132,11 @@
     }
 
     .tri-image {
-        width: 100px;
-        height: 100px;
+        
+    }
+
+    #registration-image {
+        width: 200px;
     }
 
     @media screen and (max-width: 720px) {
@@ -192,8 +195,11 @@
             <div class="card tri-card">
                 <img class="tri-image" src="/team_black.png" alt="Team" />
                 <h2>Team</h2>
-                <p>2-5 people</p>
+                <p>Upto 5 people</p>
             </div>
+        </div>
+        <div class="logo-container">
+            <img src="/hackadamien-logo.png" alt="">
         </div>
         <div class="theme-container">
             <div class="card tri-card">
@@ -203,9 +209,12 @@
                     Ex. BTD, Tetris, Chrome Dino Game</p>
             </div>
         </div>
+
+    </div>
+    <div class="container">
         <div class="registration-container">
             <div class="card tri-card">
-                <img class="tri-image" src="/register.png" alt="">
+                <img class="tri-image" id="registration-image" src="/register.png" alt="">
                 <h2>Registration Process</h2>
                 <p>Coming soon...</p>
             </div>
