@@ -127,12 +127,13 @@
         width: 30%;
     }
 
-    .tri-card{
-        padding: 0.5em;
+    .tri{
+        
+        
     }
 
     .tri-image {
-        
+        width: 100%;
     }
 
     #registration-image {
@@ -192,17 +193,17 @@
     </div>
     <div class="main-container">
         <div class="team-container">
-            <div class="card tri-card">
+            <div class="card tri">
                 <img class="tri-image" src="/team_black.png" alt="Team" />
                 <h2>Team</h2>
                 <p>Upto 5 people</p>
             </div>
         </div>
-        <div class="logo-container">
-            <img src="/hackadamien-logo.png" alt="">
+        <div class="logo-container tri">
+            <img class="tri-image" src="/hackadamien-logo.png" alt="">
         </div>
         <div class="theme-container">
-            <div class="card tri-card">
+            <div class="card tri">
                 <img class="tri-image" src="/theme_black.png" alt="">
                 <h2>Theme</h2>
                 <p>Same Level, different challenges 
