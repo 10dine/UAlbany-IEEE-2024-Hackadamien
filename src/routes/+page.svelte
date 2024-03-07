@@ -4,6 +4,8 @@
 </script>
 
 <style>
+    
+
     .HackathonImage{
         width: 83%;
         max-width: 100%;
@@ -14,8 +16,8 @@
     }
 
     .Logo{
-        width: 100px;
-        height: 35px;
+       max-height: 100px;
+       max-width: 30%;
     }
 
     main {
@@ -99,9 +101,9 @@
         width: 100%;
         position: relative;
         transform-style: preserve-3d;
-        border-radius: 2rem;
+        border-radius: 1rem;
         box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -110,7 +112,7 @@
 
     .main-container {
         display: flex;
-        justify-content: space-between;
+        height: auto;
         margin-top: 30px;
         padding-right: 40px;
         padding-left: 40px;
@@ -123,6 +125,15 @@
     .registration-container {
         margin: 0 auto;
         width: 30%;
+    }
+
+    .tri-card{
+        padding: 0.5em;
+    }
+
+    .tri-image {
+        width: 100px;
+        height: 100px;
     }
 
     @media screen and (max-width: 720px) {
@@ -158,7 +169,7 @@
 
 <main>
     <header>
-        <img class="Logo" src = "/IEEE Logo Yellow.png" alt="IEEE Logo">
+        <img class="Logo" src = "/IEEE_Logo_New_Yellow.png" alt="IEEE Logo">
         <div class="header-text">
             <span class="headersss"><a href="/contact">Contact</a></span>
             <span class="headersss"><a href="/winners">Winners</a></span>
@@ -178,20 +189,23 @@
     </div>
     <div class="main-container">
         <div class="team-container">
-            <div class="card">
+            <div class="card tri-card">
+                <img class="tri-image" src="/team_black.png" alt="Team" />
                 <h2>Team</h2>
                 <p>2-5 people</p>
             </div>
         </div>
         <div class="theme-container">
-            <div class="card">
+            <div class="card tri-card">
+                <img class="tri-image" src="/theme_black.png" alt="">
                 <h2>Theme</h2>
-                <p>Same Level, different challenges</p>
-                <p>Ex. BTD, Tetris</p>
+                <p>Same Level, different challenges 
+                    Ex. BTD, Tetris, Chrome Dino Game</p>
             </div>
         </div>
         <div class="registration-container">
-            <div class="card">
+            <div class="card tri-card">
+                <img class="tri-image" src="/register.png" alt="">
                 <h2>Registration Process</h2>
                 <p>Coming soon...</p>
             </div>
