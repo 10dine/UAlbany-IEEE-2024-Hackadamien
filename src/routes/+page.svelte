@@ -183,11 +183,11 @@
             text-decoration: none;
             transition: color 0.3s, background-color 0.3s;
             padding: 0px; 
-            margin: 0 10px;
+            margin: 0 4px;
         }
 
         .registration-button {
-            margin-right: 10px;
+            margin-right: 14px;
             margin-left: 0;
         }
 
