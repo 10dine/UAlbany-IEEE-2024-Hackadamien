@@ -1,4 +1,5 @@
 <script>
+    let predate = "April 12th, 2024";
     let date = "April 13-14th, 2024";
     let location = "ETEC Building, University at Albany";
 </script>
@@ -123,8 +124,8 @@
     }
 
     #Sponsors,
-    #Team,
-    #Theme > p {
+    #LeftSide,
+    #RightSide > p {
         font-size: 12px;
     }
 
@@ -138,10 +139,14 @@
         margin-left: 18px
     }
 
-    .team-container,
-    .theme-container {
+    .left-container,
+    .right-container {
         margin: 0 auto;
         width: 30%;
+    }
+
+    .middle-container {
+        margin: 0 10px;
     }
 
     .tri-image, .tri-image-main {
@@ -155,6 +160,10 @@
     #UPDATES > h2 {
         padding: 0 25px;
         font-size: 15px;
+    }
+
+    .infos {
+        color: #AAAAAA;
     }
 
     @media screen and (max-width: 720px) {
@@ -222,20 +231,20 @@
             text-decoration: underline;
         }
 
-        .team-container {
+        .left-container {
             width: 90%;
             margin-left: 30px;
             margin-top: 0;
             margin-bottom: 20px;
         }
 
-        .theme-container {
+        .right-container {
             width: 90%;
             margin-left: 30px;
             margin-bottom: 20px;
         }
 
-        .logo-container-tri {
+        .middle-container-dif {
             width: 90%;
             margin-left: 30px;
         }
@@ -273,8 +282,19 @@
     </div>
     <div class="container">
         <div class="card">
-            <p>Date: {date}</p>
-            <p>Location: {location}</p>
+            <p>
+                <span>Pre-Hack-A-Damien Date:</span>
+                <span class="infos">{predate}</span>
+            </p>
+            <p>
+                <span>Hack-A-Damien Date: </span>
+                <span class="infos">{date}</span>
+            </p>
+            <p>
+                <span>Location: </span>
+                <span class="infos">{location}</span>
+            </p>
+            <p>Join the <a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Discord</a></p>
         </div>
     </div>
     <div class="container">
@@ -286,23 +306,23 @@
         </div>
     </div>
     <div class="main-container">
-        <div class="team-container">
-            <div class="card" id="Team">
+        <div class="left-container">
+            <div class="card" id="LeftSide">
                 <img class="tri-image" src="/team_black.png" alt="Team" />
                 <h2>Team</h2>
-                <p>Up to 5 people</p>
+                <p class="infos">Up to 5 people</p>
                 <p></p>
             </div>
         </div>
-        <div class="logo-container-tri">
+        <div class="middle-container-dif">
             <img class="tri-image-main" src="/hackadamien-logo.png" alt="">
         </div>
-        <div class="theme-container">
-            <div class="card" id="Theme">
+        <div class="right-container">
+            <div class="card" id="RightSide">
                 <img class="tri-image" src="/theme_black.png" alt="">
                 <h2>Theme</h2>
-                <p>Same Level, different challenges</p>
-                <p>Ex. BTD, Tetris, Chrome Dino Game</p>
+                <p class="infos">Same Level, different challenges</p>
+                <p class="infos">Ex. BTD, Tetris, Chrome Dino Game</p>
                 <p></p>
             </div>
         </div>
@@ -311,7 +331,7 @@
         <div class="card">
             <img class="tri-image" id="registration-image" src="/register.png" alt="">
             <h2>Registration Process</h2>
-            <p>If you wish to participate, please fill out this form <a href="https://forms.gle/m5Vijy61EEJ6VF7N6">here</a></p>
+            <p class="infos">If you wish to participate, please fill out this form <a href="https://forms.gle/m5Vijy61EEJ6VF7N6">here</a></p>
             <p></p>
         </div>
     </div>
@@ -320,32 +340,32 @@
             <h2>Schedule</h2>
             <h3>(Subject to Change)</h3>
             <h4>APRIL 12th</h4>
-            <p>Pre-Hackathon program - 3:30PM</p>
-            <p>Technical workshop 1 - 4:15-5PM</p>
-            <p>Technical workshop 2 - 5-5:45PM</p>
-            <p>Dinner - 5:45-6:15PM</p>
-            <p>Resource workshop - 6:15-7PM</p>
-            <p>Team building workshop - 7-7:45PM</p>
+            <p class="infos">Pre-Hackathon program - 3:30PM</p>
+            <p class="infos">Technical workshop 1 - 4:15-5PM</p>
+            <p class="infos">Technical workshop 2 - 5-5:45PM</p>
+            <p class="infos">Dinner - 5:45-6:15PM</p>
+            <p class="infos">Resource workshop - 6:15-7PM</p>
+            <p class="infos">Team building workshop - 7-7:45PM</p>
 
             <h4>APRIL 13th</h4>
-            <p>Opening doors - 8:30AM</p>
-            <p>~Breakfast available~</p>
-            <p>Workshops - 9-11AM</p>
-            <p>Vendor Fair - 9AM-12PM</p>
-            <p>Opening Ceremony - 11AM</p>
-            <p>~Lunch - 11AM~</p>
-            <p>Brainstorm Period - 11:30AM-12PM</p>
-            <p>Competition begins - 12PM</p>
-            <p>~Dinner - 5pm~</p>
-            <p>~Midnight snakes - 12AM~</p>
+            <p class="infos">Opening doors - 8:30AM</p>
+            <p class="infos">~Breakfast available~</p>
+            <p class="infos">Workshops - 9-11AM</p>
+            <p class="infos">Vendor Fair - 9AM-12PM</p>
+            <p class="infos">Opening Ceremony - 11AM</p>
+            <p class="infos">~Lunch - 11AM~</p>
+            <p class="infos">Brainstorm Period - 11:30AM-12PM</p>
+            <p class="infos">Competition begins - 12PM</p>
+            <p class="infos">~Dinner - 5pm~</p>
+            <p class="infos">~Midnight snakes - 12AM~</p>
 
             <h4>APRIL 14th</h4>
-            <p>~Breakfast - 7AM~</p>
-            <p>Submissions open - 9AM</p>
-            <p>Completition Officials Ends - 12PM</p>
-            <p>Judges review submissions - 1-3PM</p>
-            <p>Closing Ceremony/Awards - 3-3:30PM</p>
-            <p></p>
+            <p class="infos">~Breakfast - 7AM~</p>
+            <p class="infos">Submissions open - 9AM</p>
+            <p class="infos">Completition Officials Ends - 12PM</p>
+            <p class="infos">Judges review submissions - 1-3PM</p>
+            <p class="infos">Closing Ceremony/Awards - 3-3:30PM</p>
+            <p class="infos"></p>
         </div>
     </div>
     <div class="container">
@@ -353,11 +373,28 @@
             <h2>Sponsors</h2>
             <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
             <p>International Business Machines Corporation (IBM)</p>
-            <p></p>
+            <p>Grimbar Interactive</p>
         </div>
     </div>
+    <!--
+    <div class ="main-container">
+        <div class="left-container">
+            <div class="card">
+                <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
+            </div>
+        </div>
+        <div class="middle-container">
+            <div class="card">
+                <p>International Business Machines Corporation (IBM)</p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="card">
+                <p>Grimbar Interactive</p>
+            </div>
+        </div>
+    </div>
+    -->
     <div class="container">
-        <h2>Communications</h2>
-        <p>Join the <a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Discord</a></p>
     </div>
 </main>

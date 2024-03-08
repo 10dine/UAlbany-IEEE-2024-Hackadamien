@@ -79,18 +79,21 @@
         box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
         background-color: rgb(241, 240, 240);
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
-        justify-content: center;
-        justify-content: flex-start;
+        
     }
 
     .card > h2 {
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .card > div > h3 {
+        font-size: 15px;
     }
 
     .card > div > p {
-        font-size: 15px;
+        font-size: 13px;
         padding: 0 20px;
     }
 
@@ -106,19 +109,33 @@
         margin-bottom: 10px;
     }
 
+    #ContactInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .staff-content {
+        width: 100%;
         text-align: left;
+        align-items: flex-start;
     }
 
     .staff-content > h3 {
-        font-size: 17px;
-        text-decoration: underline;
-        align-items: none;
-        margin-left: 15px;
+        max-width: 90%;
+        margin: 10px auto;
+        padding: 5px;
+        overflow: hidden;
+        border-bottom: 1px solid #000;
     }
 
     .staff-content > p {
-        font-size: 10px;
+        font-size: 12px;
+        max-width: 90%;
+        margin: 15px auto;
+        overflow: hidden;
+        padding: 5px;
     }
 
     .Discord-content {
@@ -128,6 +145,10 @@
     .Discord {
         color: gray;
         text-decoration: underline;
+    }
+
+    .infos {
+        color: #AAAAAA;
     }
 
     @media screen and (max-width: 720px) {
@@ -171,11 +192,11 @@
             margin-bottom: 20px;
         }
         .card > h2 {
-            font-size: 12px;
+            font-size: 13px;
         }
 
         .card > div > p {
-            font-size: 12px;
+            font-size: 9px;
             padding: 0 20px;
         }
 
@@ -184,7 +205,11 @@
         }
 
         .staff-content > h3 {
-            font-size: 11px;
+            font-size: 11px !important;
+        }
+
+        .staff-content > p {
+            font-size: 9px !important;
         }
 
         .Discord-content {
@@ -206,19 +231,40 @@
     </div>
     <div class="container">
         <div class="card" id="staff">
+            <br />
             <h2>Staff</h2>
             <div class="staff-content">
-                <h3>IEEE</h3>
-                <p>Ishtyaq Khan - (Chair)</p>
-                <p>Nick Zizic - (Vice-Chair)</p>
-                <p>Joshua Angulo - (Treasurer)</p>
-                <p>Monzir Mekki - (Secretary)</p>
-                <p>Vincent Jiang - (Director of CS Affairs)</p>
+                <h3>Institute of Electrical and Electronics Engineers (IEEE)</h3>
+                <p>Ishtyaq Khan (Chair)</p>
+                <p>Nick Zizic (Vice-Chair)</p>
+                <p>Joshua Angulo (Treasurer)</p>
+                <p>Monzir Mekki (Secretary)</p>
+                <p>Vincent Jiang (Director of CS Affairs)</p>
+                <p>Daniel Diaz (Junior Secretary)</p>
+                <p>Joren Cruz (Manager of ECE Affair)</p>
+                <p>Liam Vaitkus (Outreach Director)</p>
+                <p></p>
+                <h3>Cyber Defense Organization (CDO)</h3>
+                <p>Liam Mengler (President)</p>
+                <p>Samantha S. (Secretary)</p>
+                <p></p>
             </div>
+            <br />
         </div>
     </div>
     <div class="container">
-        <div class="card">
+        <div class="card" id="staff">
+            <br />
+            <h2>Judges</h2>
+            <div class="staff-content">
+                <p>James Oswald</p>
+                <p class="infos"></p>
+            </div>
+            <br />
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" id="ContactInfo">
             <h2>Contact Information</h2>
             <div>
                 <p>The IEEE and staff are ready to answer any questions or concerns.</p>
