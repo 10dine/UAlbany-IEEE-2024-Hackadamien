@@ -357,7 +357,7 @@
             <p class="infos">Brainstorm Period - 11:30AM-12PM</p>
             <p class="infos">Competition begins - 12PM</p>
             <p class="infos">~Dinner - 5pm~</p>
-            <p class="infos">~Midnight snakes - 12AM~</p>
+            <p class="infos">~Midnight snacks - 12AM~</p>
 
             <h4>APRIL 14th</h4>
             <p class="infos">~Breakfast - 7AM~</p>
