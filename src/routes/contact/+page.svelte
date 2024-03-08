@@ -234,19 +234,23 @@
             <br />
             <h2>Staff</h2>
             <div class="staff-content">
-                <h3>Institute of Electrical and Electronics Engineers (IEEE)</h3>
-                <p>Ishtyaq Khan (Chair)</p>
-                <p>Nick Zizic (Vice-Chair)</p>
-                <p>Joshua Angulo (Treasurer)</p>
-                <p>Monzir Mekki (Secretary)</p>
-                <p>Vincent Jiang (Director of CS Affairs)</p>
-                <p>Daniel Diaz (Junior Secretary)</p>
-                <p>Joren Cruz (Manager of ECE Affair)</p>
-                <p>Liam Vaitkus (Outreach Director)</p>
-                <p></p>
-                <h3>Cyber Defense Organization (CDO)</h3>
-                <p>Liam Mengler (President)</p>
-                <p>Samantha S. (Secretary)</p>
+                <h3>Hack-A-Damien Committee</h3>
+                <p>Chair - Vincent Jiang</p>
+                <p>Vice Chair - Liam Vaitkus</p>
+                <p>Volunteer Lead - Ava McCarthy</p>
+                <p>Webmaster - Joshua Angulo</p>
+                <p>Server Administrator - Ishtyaq Khan</p>
+                <p>Graphic Designer - Alice Wang</p>
+                <h3>Volunteers</h3>
+                <p>Joren Cruz (IEEE)</p>
+                <p>Muwahid Seraj (IEEE)</p>
+                <p>Daniel Diaz (IEEE)</p>
+                <p>Nick Zizic (IEEE)</p>
+                <p>Liam Mengler (CDO)</p>
+                <p>Samantha S. (CDO)</p>
+                <p>Monzir Mekki (IEEE)</p>
+                <p>Benjamin Babu (IEEE)</p>
+                <p>Zain Ahmad (IEEE)</p>
                 <p></p>
             </div>
             <br />
@@ -267,16 +271,17 @@
         <div class="card" id="ContactInfo">
             <h2>Contact Information</h2>
             <div>
-                <p>The IEEE and staff are ready to answer any questions or concerns.</p>
-                <p>Please feel free to join the IEEE Hack-A-Damien discord server and feel free to reach out to us.</p>
+                <p>The Hack-a-Damien staff and UAlbany IEEE are ready to answer any questions or concerns.</p>
+                <p>Please join the Hack-A-Damien discord server and feel free to reach out to us.</p>
                 <div class="Discord-content">
                     <p><a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Hack-A-Damien Discord Server</a></p>
                 </div>
             </div>
             <div>
-                <p>Please reach out to Vincent Jiang or Ishtyaq Khan for any questions via email.</p>
-                <p><a class="emails" href="mailto:ikhan4@albany.edu" target="_blank">Ishtyaq Khan</a>: ikhan4@albany.edu</p>
+                <p>Reach out to Liam Vaitkus, Vincent Jiang or Ishtyaq Khan for any questions via email.</p>
+                <p><a class="emails" href="mailto:lvaitkus@albany.edu" target="_blank">Liam Vaitkus</a>: lvaitkus@albany.edu</p>
                 <p><a class="emails" href="mailto:vjiang@albany.edu" target="_blank">Vincent Jiang</a>: vjiang@albany.edu</p>
+                <p><a class="emails" href="mailto:ikhan4@albany.edu" target="_blank">Ishtyaq Khan</a>: ikhan4@albany.edu</p>
             </div>
             <div class="Discord-content">
                 <p><a class="Discord" href="https://discord.gg/FJ7GpWgwSa" target="_blank">IEEE Discord Server</a></p>

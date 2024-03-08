@@ -166,6 +166,12 @@
         color: #AAAAAA;
     }
 
+    .sponsor-img {
+        max-height: 100px;
+        margin: 10px;
+        flex: 1 1 auto;
+    }
+
     @media screen and (max-width: 720px) {
         .header {
             width: 100%;
@@ -256,6 +262,14 @@
         #UPDATES > h2 {
             padding: 0 20px;
             font-size: 10px;
+        }
+
+        .sponsor-img {
+            height: auto;
+            margin: 10px 30px;
+            display: block;
+            width: auto;
+            max-width: 100%;
         }
     }
 
@@ -371,9 +385,9 @@
     <div class="container">
         <div class="card" id="Sponsors">
             <h2>Sponsors</h2>
-            <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
-            <p>International Business Machines Corporation (IBM)</p>
-            <p>Grimbar Interactive</p>
+            <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
+            <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
+            <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
         </div>
     </div>
     <!--
