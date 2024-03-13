@@ -1,11 +1,10 @@
 <script>
+    let predate = "April 12th, 2024";
     let date = "April 13-14th, 2024";
     let location = "ETEC Building, University at Albany";
 </script>
 
 <style>
-    
-
     .HackathonImage{
         max-width: 100%;
         height: auto;
@@ -24,16 +23,16 @@
         padding: 20;
     }
 
-    header {
-        background-color: rgba(0,0,0,0);
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-left: 3%;
+    .header {
+        background-color: rgba(0,0,0,.3);
+        padding: 20px 0;
+        margin-left: 0px;
         text-align: left;
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: relative;
+        z-index: 9999;
     }
 
     .header-text {
@@ -57,7 +56,7 @@
     }
 
     a {
-        color: #332323;
+        color: #b97ead;
         text-decoration: none;
     }
 
@@ -110,6 +109,26 @@
         justify-content: center;
     }
 
+    .card > h2 {
+        font-size: 20px;
+    }
+
+    .card > h3 {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
+    .card > p {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+
+    #Sponsors,
+    #LeftSide,
+    #RightSide > p {
+        font-size: 12px;
+    }
+
     .main-container {
         display: flex;
         height: auto;
@@ -120,19 +139,17 @@
         margin-left: 18px
     }
 
-    .team-container,
-    .theme-container,
-    .registration-container {
+    .left-container,
+    .right-container {
         margin: 0 auto;
         width: 30%;
     }
 
-    .tri{
-        
-        
+    .middle-container {
+        margin: 0 10px;
     }
 
-    .tri-image {
+    .tri-image, .tri-image-main {
         width: 100%;
     }
 
@@ -140,27 +157,119 @@
         width: 200px;
     }
 
+    #UPDATES > h2 {
+        padding: 0 25px;
+        font-size: 15px;
+    }
+
+    .infos {
+        color: #AAAAAA;
+    }
+
+    .sponsor-img {
+        max-height: 100px;
+        margin: 10px;
+        flex: 1 1 auto;
+    }
+
     @media screen and (max-width: 720px) {
+        .header {
+            width: 100%;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            max-width: 100%;
+            font-size: 12px;
+        }
+
+        .header-text {
+            display: flex;
+            flex-grow:1;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 0px;
+            width: 100%;
+        }
+
+        .headersss {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+            padding: 0px; 
+            margin: 0 4px;
+        }
+
         .registration-button {
-            margin-right: 10px;
+            margin-right: 14px;
+            margin-left: 0;
         }
 
         .HackathonImage {
+            margin-top: 100px;
             width: 500px;
             height: 120px;
         }
 
         .main-container {
             padding: 0 0;
+            margin: 0 0;
             flex-wrap: wrap;
+            width: 100%;
         }
 
-        .team-container,
-        .theme-container,
-        .registration-container {
+        .container {
             width: 90%;
             margin: 0 auto;
             margin-bottom: 20px;
+        }
+
+        .card > h2 {
+            font-size: 12px;
+        }
+
+        .card > p {
+            font-size: 9px;
+        }
+
+        .card > p > a {
+            text-decoration: underline;
+        }
+
+        .left-container {
+            width: 90%;
+            margin-left: 30px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .right-container {
+            width: 90%;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .middle-container-dif {
+            width: 90%;
+            margin-left: 30px;
+        }
+
+        .tri-image {
+            width: 50%;
+        }
+
+        #UPDATES > h2 {
+            padding: 0 20px;
+            font-size: 10px;
+        }
+
+        .sponsor-img {
+            height: auto;
+            margin: 10px 30px;
+            display: block;
+            width: auto;
+            max-width: 100%;
         }
     }
 
@@ -172,14 +281,14 @@
 </style>
 
 <main>
-    <header>
+    <header class="header">
         <img class="Logo" src = "/IEEE_Logo_New_Yellow.png" alt="IEEE Logo">
         <div class="header-text">
             <span class="headersss"><a href="/contact">Contact</a></span>
             <span class="headersss"><a href="/winners">Winners</a></span>
         </div>
         <div class="registration-button">
-            <span class="registerheader"><a href="/">Register</a></span>
+            <span class="registerheader"><a href="https://forms.gle/m5Vijy61EEJ6VF7N6">Register</a></span>
         </div>
     </header>
     <div>
@@ -187,63 +296,119 @@
     </div>
     <div class="container">
         <div class="card">
-            <p>Date: {date}</p>
-            <p>Location: {location}</p>
+            <p>
+                <span>Pre-Hack-A-Damien Date:</span>
+                <span class="infos">{predate}</span>
+            </p>
+            <p>
+                <span>Hack-A-Damien Date: </span>
+                <span class="infos">{date}</span>
+            </p>
+            <p>
+                <span>Location: </span>
+                <span class="infos">{location}</span>
+            </p>
+            <p>Join the <a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Discord</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" id="UPDATES">
+            <h2>THIS WEBSITE WILL CONTINUOUSLY BE UPDATED FOR MORE INFORMATION!</h2>
+            <p>RULES ARE SUBJECT TO CHANGE</p>
+            <p>PLEASE REVISIT FOR UPDATES</p>
+            <p></p>
         </div>
     </div>
     <div class="main-container">
-        <div class="team-container">
-            <div class="card tri">
+        <div class="left-container">
+            <div class="card" id="LeftSide">
                 <img class="tri-image" src="/team_black.png" alt="Team" />
                 <h2>Team</h2>
-                <p>Upto 5 people</p>
+                <p class="infos">Up to 5 people</p>
+                <p></p>
             </div>
         </div>
-        <div class="logo-container tri">
-            <img class="tri-image" src="/hackadamien-logo.png" alt="">
+        <div class="middle-container-dif">
+            <img class="tri-image-main" src="/hackadamien-logo.png" alt="">
         </div>
-        <div class="theme-container">
-            <div class="card tri">
+        <div class="right-container">
+            <div class="card" id="RightSide">
                 <img class="tri-image" src="/theme_black.png" alt="">
                 <h2>Theme</h2>
-                <p>Same Level, different challenges 
-                    Ex. BTD, Tetris, Chrome Dino Game</p>
+                <p class="infos">Same Level, different challenges</p>
+                <p class="infos">Ex. BTD, Tetris, Chrome Dino Game</p>
+                <p></p>
             </div>
         </div>
-
     </div>
     <div class="container">
-        <div class="registration-container">
-            <div class="card tri-card">
-                <img class="tri-image" id="registration-image" src="/register.png" alt="">
-                <h2>Registration Process</h2>
-                <p>Coming soon...</p>
-            </div>
+        <div class="card">
+            <img class="tri-image" id="registration-image" src="/register.png" alt="">
+            <h2>Registration Process</h2>
+            <p class="infos">If you wish to participate, please fill out this form <a href="https://forms.gle/m5Vijy61EEJ6VF7N6">here</a></p>
+            <p></p>
         </div>
     </div>
     <div class="container">
         <div class="card" id="Schedule">
             <h2>Schedule</h2>
-            <p>Brainstorm Ideas - 4/13 9AM</p>
-            <p>Submit Idea - 4/13 10:50AM</p>
-            <p>Opening Ceremony - 4/13 11AM</p>
-            <p>Participants will begin their projects - 4/13 12PM</p>
-            <p></p>
-            <p>Participants can begin turning in projects - 4/14 9AM</p>
-            <p>Final project due time - 4/14 12PM</p>
-            <p>Presentation/Judging period - 4/14 1PM-3PM</p>
+            <h3>(Subject to Change)</h3>
+            <h4>APRIL 12th</h4>
+            <p class="infos">Pre-Hackathon program - 3:30PM</p>
+            <p class="infos">Technical workshop 1 - 4:15-5PM</p>
+            <p class="infos">Technical workshop 2 - 5-5:45PM</p>
+            <p class="infos">Dinner - 5:45-6:15PM</p>
+            <p class="infos">Resource workshop - 6:15-7PM</p>
+            <p class="infos">Team building workshop - 7-7:45PM</p>
+
+            <h4>APRIL 13th</h4>
+            <p class="infos">Opening doors - 8:30AM</p>
+            <p class="infos">~Breakfast available~</p>
+            <p class="infos">Workshops - 9-11AM</p>
+            <p class="infos">Vendor Fair - 9AM-12PM</p>
+            <p class="infos">Opening Ceremony - 11AM</p>
+            <p class="infos">~Lunch - 11AM~</p>
+            <p class="infos">Brainstorm Period - 11:30AM-12PM</p>
+            <p class="infos">Competition begins - 12PM</p>
+            <p class="infos">~Dinner - 5pm~</p>
+            <p class="infos">~Midnight snacks - 12AM~</p>
+
+            <h4>APRIL 14th</h4>
+            <p class="infos">~Breakfast - 7AM~</p>
+            <p class="infos">Submissions open - 9AM</p>
+            <p class="infos">Completition Officials Ends - 12PM</p>
+            <p class="infos">Judges review submissions - 1-3PM</p>
+            <p class="infos">Closing Ceremony/Awards - 3-3:30PM</p>
+            <p class="infos"></p>
         </div>
     </div>
     <div class="container">
         <div class="card" id="Sponsors">
             <h2>Sponsors</h2>
-            <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
+            <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
+            <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
+            <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
         </div>
     </div>
-    <div class="container">
-        <h2>Communications</h2>
-        <p>Join the <a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Discord</a></p>
+    <!--
+    <div class ="main-container">
+        <div class="left-container">
+            <div class="card">
+                <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
+            </div>
+        </div>
+        <div class="middle-container">
+            <div class="card">
+                <p>International Business Machines Corporation (IBM)</p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="card">
+                <p>Grimbar Interactive</p>
+            </div>
+        </div>
     </div>
-    <br />
-    <br />
+    -->
+    <div class="container">
+    </div>
 </main>
