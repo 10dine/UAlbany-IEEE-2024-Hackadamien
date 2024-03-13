@@ -261,7 +261,7 @@
             <br />
             <h2>Judges</h2>
             <div class="staff-content">
-                <p>James Oswald</p>
+                <p><a href="https://jamesoswald.dev/">James Oswald</a>(Rensselaer AI and Reasoning Laboratory at Rensselaer Polytechnic Institute)</p>
                 <p class="infos"></p>
             </div>
             <br />
