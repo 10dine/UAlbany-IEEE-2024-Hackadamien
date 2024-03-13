@@ -163,7 +163,13 @@
     }
 
     .infos {
-        color: #AAAAAA;
+        color: #807db2;
+        text-decoration: underline;
+    }
+
+    .desc{
+        color: #807db2;
+        line-height: 120%;
     }
 
     .sponsor-img {
@@ -313,7 +319,12 @@
     </div>
     <div class="container">
         <div class="card" id="UPDATES">
-            <h2>THIS WEBSITE WILL CONTINUOUSLY BE UPDATED FOR MORE INFORMATION!</h2>
+            <h2>Hack-A-Damien</h2>
+            <p class="desc">Hack-A-Damien is a 24-Hour Game Development Hackathon right here on the @UAlbany campus sponsored by IBM, the UAlbany College of Nanotechnology, Science, and Engineering, and Grimbar Interactive! Sign-up for UAlbany's inaugural student-hosted hackathon, hosted by UAlbany IEEE. We welcome all colleges and universities to join us- Collaborate with others to build games, test your skills, and win!</p>
+            <p class="desc">Spectators can come visit on April 13 and 14 in ETEC as well! Be sure to visit our ever-growing sponsors and tabled industry partners: FBI, US Space Force, College of Nanotechnology, Science, and Engineering, IBM, and the list is still growing!</p>
+                
+
+            <p>THIS WEBSITE WILL CONTINUOUSLY BE UPDATED FOR MORE INFORMATION!</p>
             <p>RULES ARE SUBJECT TO CHANGE</p>
             <p>PLEASE REVISIT FOR UPDATES</p>
             <p></p>
