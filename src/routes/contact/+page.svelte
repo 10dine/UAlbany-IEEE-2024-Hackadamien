@@ -51,7 +51,11 @@
 
     a {
         color: #b97ead;
-        text-decoration: none;
+        text-decoration: underline #807db2;
+    }
+    a:hover {
+        color: #807db2;
+        text-decoration: underline;
     }
 
     .emails {
@@ -261,7 +265,7 @@
             <br />
             <h2>Judges</h2>
             <div class="staff-content">
-                <p><a href="https://jamesoswald.dev/">James Oswald</a>(Rensselaer AI and Reasoning Laboratory at Rensselaer Polytechnic Institute)</p>
+                <p><a href="https://jamesoswald.dev/">James Oswald</a> (Rensselaer AI and Reasoning Laboratory at Rensselaer Polytechnic Institute)</p>
                 <p class="infos"></p>
             </div>
             <br />
