@@ -1,15 +1,16 @@
 <script>
+	import { onMount } from "svelte";
+
     let predate = "April 12th, 2024";
     let date = "April 13-14th, 2024";
     let location = "ETEC Building, University at Albany";
     let targetDate = new Date("April 13, 2024 09:00:00").getTime();
     let timeLeft = calculateTimeLeft();
 
-    let toggleState = false;
+    let toggleState = true; // Set initial value to true
 
     function toggleSwitch() {
         toggleState = !toggleState;
-        
     }
 
     function calculateTimeLeft() {
@@ -25,6 +26,10 @@
     setInterval(() => {
         timeLeft = calculateTimeLeft();
     }, 1000);
+
+    // onMount(() => {
+    //     toggleSwitch();
+    // });
 </script>
 
 <style>
