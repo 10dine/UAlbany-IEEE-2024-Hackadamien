@@ -246,15 +246,25 @@
         text-decoration: underline;
     }
 
-    .desc{
+    .infos2 {
+        color: #b97ead;
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+    .desc {
         color: #807db2;
         line-height: 120%;
     }
 
     .sponsor-img {
-        max-height: 100px;
-        margin: 10px;
+        max-height: 80px;
+        margin: 5px 20px;
+        padding: 10px;
         flex: 1 1 auto;
+        border: 1px #2d2d35;
+        border-style: outset groove;
+        border-radius: 5px;
     }
 
     .toggle-switch {
@@ -296,6 +306,17 @@
     .toggle-switch.checked .knob {
         transform: translateX(26px);
     }
+
+    .logos {
+        width: 100%;
+        max-width: 85%;
+        align-items: flex-start;
+        margin: 15px auto;
+        padding: 0px 20px;
+        overflow: hidden;
+    }
+
+
 
     @media screen and (max-width: 720px) {
         .Logo{
@@ -446,8 +467,9 @@
     <header class="header">
         <img class="Logo" src = "/IEEE_Logo_New_Yellow.png" alt="IEEE Logo">
         <div class="header-text">
+            <span class="headersss"><a href="/">Homepage</a></span>
             <span class="headersss"><a href="/contact">Contact</a></span>
-            <span class="headersss"><a href="/winners">Winners</a></span>
+            <!---<span class="headersss"><a href="/winners">Winners</a></span>-->
         </div>
         <div class="buttons">
             <label class="toggle-switch">
@@ -560,29 +582,40 @@
             <h2>Schedule</h2>
             <h3>(Subject to Change)</h3>
             <h4>APRIL 12th</h4>
-            <p class="infos">Pre-Hackathon program - 3:30PM</p>
-            <p class="infos">Technical workshop 1 - 4:15-5PM</p>
-            <p class="infos">Technical workshop 2 - 5-5:45PM</p>
-            <p class="infos">Dinner - 5:45-6:15PM</p>
-            <p class="infos">Resource workshop - 6:15-7PM</p>
-            <p class="infos">Team building workshop - 7-7:45PM</p>
+            <p class="infos">Arrive for Pre-Hackathon Program - 3:30PM</p>
+            <p class="infos">Grimbar Unity Mobile - 4:15-5PM</p>
+            <p class="infos">Resouce Workshop (B010) - 5-5:30PM</p>
+            <p class="infos">Team Building Workshop (B010) - 5:35-6:20PM</p>
+            <p class="infos">Dinner (Cafe area) - 5:45-6PM</p>
+            <p class="infos">C++ Web Assembly & Raylib - 6:30-7:20PM</p>
+            <p class="infos">Unity Workshop - 7:20-8:15PM</p>
 
             <h4>APRIL 13th</h4>
             <p class="infos">Opening doors - 8:30AM</p>
             <p class="infos">~Breakfast available~</p>
-            <p class="infos">Workshops - 9-11AM</p>
-            <p class="infos">Vendor Fair - 9AM-12PM</p>
-            <p class="infos">Opening Ceremony - 11AM</p>
-            <p class="infos">~Lunch - 11AM~</p>
-            <p class="infos">Brainstorm Period - 11:30AM-12PM</p>
-            <p class="infos">Competition begins - 12PM</p>
-            <p class="infos">~Dinner - 5pm~</p>
+            <p class="infos">Check-in - 8:30-10:45AM</p>
+            <p class="infos">Vendor Fair (Atrium) - 9AM-12PM</p>
+            <p class="infos">Workshops (Training room)</p>
+            <lu>
+                <li class="infos2">IBM - 10:15-10:55AM</li>
+                <li class="infos2">Velan Studios Q&A - 11:30AM-12PM</li>
+                <!---<li class="infos2">Dean's Son-in-law | Nick's Workshop</li>-->
+            </lu>
+            <p class="infos">Opening Ceremony (Training Room) - 11-11:30AM</p>
+            <p class="infos">Brainstorming sessions/free time (Atrium) - 11:30AM-12PM</p>
+            <p class="infos">Competition begins (B010) - 12:15PM</p>
+            <p class="infos">~Lunch (Atrium) - 1PM~</p>
+            <p class="infos">Karaoke - 6PM</p>
+            <p class="infos">~Dinner (Cafe area) - 7PM~</p>
+            <p class="infos">Jeopardy - 8PM</p>
+            <p class="infos">Worst Code Workshop - 9PM</p>
+            <p class="infos">~ALL PARTICIPANTS WILL BE MOVED DOWNSTAIRS~</p>
             <p class="infos">~Midnight snacks - 12AM~</p>
 
             <h4>APRIL 14th</h4>
             <p class="infos">~Breakfast - 7AM~</p>
             <p class="infos">Submissions open - 9AM</p>
-            <p class="infos">Completition Officials Ends - 12PM</p>
+            <p class="infos">Completition Officials Ends - 12:15PM</p>
             <p class="infos">Judges review submissions - 1-3PM</p>
             <p class="infos">Closing Ceremony/Awards - 3-3:30PM</p>
             <p class="infos"></p>
@@ -591,9 +624,15 @@
     <div class="container">
         <div class="card" class:dark-mode={toggleState} id="Sponsors">
             <h2>Sponsors</h2>
-            <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
-            <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
-            <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
+            <div class="logos">
+                <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
+                <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
+                <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
+                <img class="sponsor-img" src="/Wolfjaw-Studios-logo.png" alt="Wolfjaw Studios Logo">
+                <img class="sponsor-img" src="/Celsius-logo.png" alt="Celsius Logo">
+                <img class="sponsor-img" src="/Warner-Bros-Games-Logo.png" alt="Warner Bros Games Logo">
+                <img class="sponsor-img" src="/Velan-Studios-logo.png" alt="Velan Studios Logo">
+            </div>
         </div>
     </div>
     <!--
