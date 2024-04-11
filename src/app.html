@@ -1,5 +1,9 @@
 <!doctype html>
 <html lang="en">
+	<script>
+		export let pageTitle = "Hack-A-Damien";
+		export let pageDescription = "Information about the Hack-A-Damien from April 12th-14th";
+	</script>
 	<head>
 		<title>HACK-A-DAMIEN</title>
 		<meta charset="utf-8" />
@@ -37,6 +41,11 @@
 			}
 		</style>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />%sveltekit.head%
+		<meta name="description" content="Information about the Hack-A-Damien from April 12th-14th">
+  		<meta property="og:title" content="Hack-A-Damien" />
+		<meta property="og:description" content="Information about the Hack-A-Damien from April 12th-14th" />
+		<meta property="og:image" content="https://hackadamien.ieeeualbany.org/hackadamien-logo.png" />
+		<meta property="og:url" content="https://hackadamien.ieeeualbany.org" />
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
