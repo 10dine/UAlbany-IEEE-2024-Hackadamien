@@ -546,13 +546,18 @@
         <div class="card" class:dark-mode={toggleState} id="UPDATES">
             <h2>Hack-A-Damien</h2>
             <p class="desc">Hack-A-Damien is a 24-Hour Game Development Hackathon right here on the @UAlbany campus sponsored by IBM, the UAlbany College of Nanotechnology, Science, and Engineering, and Grimbar Interactive! Sign-up for UAlbany's inaugural student-hosted hackathon, hosted by UAlbany IEEE. We welcome all colleges and universities to join us- Collaborate with others to build games, test your skills, and win!</p>
-            <p class="desc">Spectators can come visit on April 13 and 14 in ETEC as well! Be sure to visit our ever-growing sponsors and tabled industry partners: FBI, US Space Force, College of Nanotechnology, Science, and Engineering, IBM, and the list is still growing!</p>
-                
-
-            <p>THIS WEBSITE WILL CONTINUOUSLY BE UPDATED FOR MORE INFORMATION!</p>
-            <p>RULES ARE SUBJECT TO CHANGE</p>
-            <p>PLEASE REVISIT FOR UPDATES</p>
-            <p></p>
+            <p class="desc">Registration are closed becuase we are at capacity for 2024.</p>
+            <p class="desc">Thank you all for registering and spreading the word!</p>
+            <p class="desc">Spectators can come visit on April 13th and 14th as well! Our Various workshops, social events, and sponsor tabling are available to all, not just Hack-A-Damien participants. Please keep in mine that food will be limited, however, due to our constrained student organization budget.</p>
+            <p class="desc">If you are under the age of 18, please be sure to read our Policy on Minors (in our Rules and Policies tab) and to have a chaperone with you.</p>
+            <p class="desc">There is a prayer room available in ETEC 107. It will be available on both days of the Hack-A-Damien, Saturday and Sunday, from 8:00 AM - 10:00 PM.</p>
+            <p class="desc">Here is a short checklist of things you will need for Hack-A-Damien:
+                <li>A computer to work with, as well as a charging device and other auxilary technology equipment</li>
+                <li>A sleeping bag, or a pillow and blanket (optional)</li>
+                <li>Never hurts to bring toothbrush and toothpaste (optional)</li>
+                <li>The Hack-A-Damien Spirit (not optional)</li>
+            </p>
+            <p class="desc">THIS WEBSITE WILL CONTINUOUSLY BE UPDATED FOR MORE INFORMATION</p>
         </div>
     </div>
     <div class="main-container">
@@ -577,14 +582,16 @@
             </div>
         </div>
     </div>
+    <!--
     <div class="container">
         <div class="card" class:dark-mode={toggleState}>
             <img class="tri-image" id="registration-image" src="/register.png" alt="">
             <h2>Registration Process</h2>
-            <p class="infos">If you wish to participate, please fill out this form <a href="https://forms.gle/m5Vijy61EEJ6VF7N6">here</a></p>
+            -<p class="infos">If you wish to participate, please fill out this form <a href="https://forms.gle/m5Vijy61EEJ6VF7N6">here</a></p>
             <p></p>
         </div>
     </div>
+    -->
     <div class="container">
         <div class="card" class:dark-mode={toggleState} id="Schedule">
             <h2>Schedule</h2>

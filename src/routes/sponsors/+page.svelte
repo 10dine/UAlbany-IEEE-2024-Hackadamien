@@ -111,11 +111,6 @@
         padding: 0 20px;
     }
 
-    .card > p > a {
-        text-decoration: underline;
-        color: #807db2;
-    }
-
     .toggle-switch {
         position: relative;
         display: inline-block;
@@ -242,28 +237,7 @@
     </div>
     <div class="container">
         <div class="card" class:dark-mode={toggleState}>
-            <h2>Steps</h2>
-            <p>Congratulations! You worked up the will to have a go at a hackathon. And not just anything plain ole hackathon, but UAlbany’s first student-hosted hackathon, the Hack-A-Damien! To sign up, please fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXqp2uXpA0s1DBgNVv1E7ngsBGmjZHaCMZ1ZC93FE1SEZvFQ/closedform">form</a> (if the form is open). Afterwards, you can just sit tight until the event starts and maybe start organizing a group.</p>
-            <p>Hack-A-Damien will begin promptly at 09:00 AM on March 13th, Saturday. Please try to make it on time to the venue. We are located in the ETEC building, main lobby (Atrium). Here’s <a href="https://www.google.com/maps/dir/42.6246144,-73.8295808/UAlbany+ETEC+Building,+Albany,+NY+12203/@42.6556254,-73.8786114,12z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x89de0ba67d2e521b:0x9e71960ff985a057!2m2!1d-73.8159196!2d42.6804746!3e0?entry=ttu">some directions to make your life easier if you're not from Albany.</a></p>
-            <p>Now that you’re here, all you need to do is check-in at the front desk, collect your handout, wristbands, and sit down somewhere for the opening ceremony. Or, if you’re running late, you can check in, pick a comfortable spot, and start working on your project.</p>
-            <p>Sponsors sponsors sponsors! Take some time to check out our sponsors’ workshops and tables beforehand (09:00 AM - 12:00 PM). For a complete list of our sponsors and what they’re doing at our event, please check out the “Sponsors” tab at the top of this webpage. </p>
-            <p>Remember that Hack-A-Damien is a chance to learn something new, test your time-crunch and collaboration skills, and to meet other like-minded people. Don’t be ashamed if your project does not go as expected, but be proud that you participated in a 24-hour long grueling challenge, otherwise known as a hackathon, to begin with!</p>
-            <p></p>
-        </div>
-    </div>
-    <div class="container">
-        <div class="card" class:dark-mode={toggleState}>
-            <h2>Rules</h2>
-            <p>All participants must follow our Code of Conduct and rules or risk being disqualified. Teams or participants can be disqualified at the organizers’ discretion.</p>
-            <p>Duration: 
-                <li>Participants may work on their projects from 12:30 PM on April 13th, Saturday, to 12:30 PM on April 14th, Sunday. All programming, designing, and other project-related work should be carried out within this timeframe.</li>
-                <li>It is highly encouraged that you have a project idea roughly two hours into the duration of this hackathon (approximately 02:30 PM on March 13th, Saturday). Casual checks will be done by our volunteers and staff members to ensure that people are not stuck brainstorming. This is not a means of disqualification, but simply a friendly check-up. </li>
-                <li>Participants are expected to stay all night like all hackathons but it is permissible for team members to leave the Hack-A-Damien venue after 06:00 PM on March 13th and will not result in a disqualification.</li>
-                <li>All team members must be present for judging, either virtually or in-person, which will take place from 01:00 PM to 03:00 PM.</li>
-            </p>
-            <p>Now that you’re here, all you need to do is check-in at the front desk, collect your handout, wristbands, and sit down somewhere for the opening ceremony. Or, if you’re running late, you can check in, pick a comfortable spot, and start working on your project.</p>
-            <p>Sponsors sponsors sponsors! Take some time to check out our sponsors’ workshops and tables beforehand (09:00 AM - 12:00 PM). For a complete list of our sponsors and what they’re doing at our event, please check out the “Sponsors” tab at the top of this webpage. </p>
-            <p>Remember that Hack-A-Damien is a chance to learn something new, test your time-crunch and collaboration skills, and to meet other like-minded people. Don’t be ashamed if your project does not go as expected, but be proud that you participated in a 24-hour long grueling challenge, otherwise known as a hackathon, to begin with!</p>
+            <h2>Sponsors</h2>
             <p></p>
         </div>
     </div>

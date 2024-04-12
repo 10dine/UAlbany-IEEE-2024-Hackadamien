@@ -11,6 +11,8 @@
     import Rules from './routes/rules/rules.svelte';
     // @ts-ignore
     import Schedule from './routes/schedule/schedule.svelte';
+    // @ts-ignore
+    import Sponsors from './routes/sponsors/sponsors.svelte';
 </script>
 
   <Router>
@@ -25,4 +27,5 @@
     <Route path="/winner" component={Winner} />
     <Route path="/rules" component={Rules} />
     <Route path="/schedule" component={Schedule} />
+    <Route path="/sponsors" component={Sponsors} />
   </Router>
