@@ -478,7 +478,7 @@
                     <div class="knob"></div>
                 </div>
             </label>
-            <span class="registerheader"><a href="https://forms.gle/m5Vijy61EEJ6VF7N6">Register</a></span>
+            <!--<span class="registerheader"><a href="https://forms.gle/m5Vijy61EEJ6VF7N6">Register</a></span>-->
         </div>
     </header>
     <div>
@@ -532,6 +532,14 @@
                 <span class="infos">{location}</span>
             </p>
             <p>Join the <a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Discord</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" class:dark-mode={toggleState}>
+            <p>
+                <span><a href="/schedule">Schedule</a></span>
+                <span><a href="/rules">Rules</a></span>
+            </p>
         </div>
     </div>
     <div class="container">
@@ -632,6 +640,8 @@
                 <img class="sponsor-img" src="/Celsius-logo.png" alt="Celsius Logo">
                 <img class="sponsor-img" src="/Warner-Bros-Games-Logo.png" alt="Warner Bros Games Logo">
                 <img class="sponsor-img" src="/Velan-Studios-logo.png" alt="Velan Studios Logo">
+                <img class="sponsor-img" src="/Meraki-logo.png" alt="Meraki Logo">
+                <img class="sponsor-img" src="/Meta-logo.png" alt="Meta Logo">
             </div>
         </div>
     </div>

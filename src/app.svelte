@@ -7,6 +7,10 @@
     import Contact from './routes/contact.svelte';
     // @ts-ignore
     import Winner from './routes/winners/winners.svelte';
+    // @ts-ignore
+    import Rules from './routes/rules/rules.svelte';
+    // @ts-ignore
+    import Schedule from './routes/schedule/schedule.svelte';
 </script>
 
   <Router>
@@ -19,4 +23,6 @@
     <Route path="/" component={Home} />
     <Route path="/contact" component={Contact} />
     <Route path="/winner" component={Winner} />
+    <Route path="/rules" component={Rules} />
+    <Route path="/schedule" component={Schedule} />
   </Router>
