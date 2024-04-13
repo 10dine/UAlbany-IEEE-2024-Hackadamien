@@ -267,6 +267,16 @@
         border-radius: 5px;
     }
 
+    .QRcode {
+        max-height: 160px;
+        margin: 5px 20px;
+        padding: 10px;
+        flex: 1 1 auto;
+        border: 1px #2d2d35;
+        border-style: outset groove;
+        border-radius: 5px;
+    }
+
     .toggle-switch {
         position: relative;
         display: inline-block;
@@ -527,6 +537,14 @@
                     <p>Seconds</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" class:dark-mode={toggleState}>
+            <h2>Check-In here</h2>
+            <img class="QRcode" src="/QRcode.png" alt="QR code">
+            <p>Please only use this in person.</p>
+            <p></p>
         </div>
     </div>
     <div class="container">
