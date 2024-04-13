@@ -49,7 +49,7 @@
         color: white;
         text-decoration: none;
         transition: color 0.3s, background-color 0.3s;
-        margin-right: 20px; 
+        margin-right: 10px; 
         padding: 10px 20px; 
     }
 
@@ -213,7 +213,8 @@
         <div class="header-text">
             <span class="headersss"><a href="/">Homepage</a></span>
             <span class="headersss"><a href="/contact">Contact</a></span>
-            <!---<span class="headersss"><a href="/winners">Winners</a></span>-->
+            <span class="headersss"><a href="/rules">Rules</a></span>
+            <span class="headersss"><a href="/sponsors">Sponsors</a></span>
         </div>
         <div class="buttons">
             <label class="toggle-switch">

@@ -50,7 +50,7 @@
         color: white;
         text-decoration: none;
         transition: color 0.3s, background-color 0.3s;
-        margin-right: 20px; 
+        margin-right: 10px; 
         padding: 10px 20px; 
     }
 
@@ -232,13 +232,13 @@
     }
 
     .sponsor-img {
-        max-height: 80px;
-        margin: 5px 20px;
-        padding: 10px;
-        flex: 1 1 auto;
-        border: 1px #2d2d35;
-        border-style: outset groove;
-        border-radius: 5px;
+        width: 100%;
+        max-width: 85%;
+        align-items: flex-start;
+        margin: 15px auto;
+        padding: 0px 20px;
+        overflow: hidden;
+        padding-left:55px;
     }
 
     .toggle-switch {
@@ -442,7 +442,8 @@
         <div class="header-text">
             <span class="headersss"><a href="/">Homepage</a></span>
             <span class="headersss"><a href="/contact">Contact</a></span>
-            <!---<span class="headersss"><a href="/winners">Winners</a></span>-->
+            <span class="headersss"><a href="/rules">Rules</a></span>
+            <span class="headersss"><a href="/sponsors">Sponsors</a></span>
         </div>
         <div class="buttons">
             <label class="toggle-switch">
@@ -460,15 +461,10 @@
         <div class="card" class:dark-mode={toggleState} id="Sponsors">
             <h2>Sponsors</h2>
             <div class="logos">
-                <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
-                <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
-                <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
-                <img class="sponsor-img" src="/Wolfjaw-Studios-logo.png" alt="Wolfjaw Studios Logo">
-                <img class="sponsor-img" src="/Celsius-logo.png" alt="Celsius Logo">
-                <img class="sponsor-img" src="/Warner-Bros-Games-Logo.png" alt="Warner Bros Games Logo">
-                <img class="sponsor-img" src="/Velan-Studios-logo.png" alt="Velan Studios Logo">
-                <img class="sponsor-img" src="/Meraki-logo.png" alt="Meraki Logo">
-                <img class="sponsor-img" src="/Meta-logo.png" alt="Meta Logo">
+                <img class="sponsor-img" src="/2-sponsor.jpg" alt="Sponsors">
+                <img class="sponsor-img" src="/3-sponsor.jpg" alt="Sponsors">
+                <img class="sponsor-img" src="/4-sponsor.jpg" alt="Sponsors">
+                <p></p>
             </div>
         </div>
     </div>

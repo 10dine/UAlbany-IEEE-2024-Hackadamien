@@ -76,7 +76,7 @@
         color: white;
         text-decoration: none;
         transition: color 0.3s, background-color 0.3s;
-        margin-right: 20px; 
+        margin-right: 10px; 
         padding: 10px 20px; 
     }
 
@@ -461,6 +461,16 @@
         text-decoration: underline;
     }
 
+    .schedule-img {
+        width: 100%;
+        max-width: 85%;
+        align-items: flex-start;
+        margin: 15px auto;
+        padding: 0px 20px;
+        overflow: hidden;
+        padding-left:55px;
+    }
+
 </style>
 
 <main>
@@ -469,6 +479,7 @@
         <div class="header-text">
             <span class="headersss"><a href="/">Homepage</a></span>
             <span class="headersss"><a href="/contact">Contact</a></span>
+            <span class="headersss"><a href="/rules">Rules</a></span>
             <span class="headersss"><a href="/sponsors">Sponsors</a></span>
             <!---<span class="headersss"><a href="/winners">Winners</a></span>-->
         </div>
@@ -536,14 +547,6 @@
         </div>
     </div>
     <div class="container">
-        <div class="card" class:dark-mode={toggleState}>
-            <p>
-                <span><a href="/schedule">Schedule</a></span>
-                <span><a href="/rules">Rules</a></span>
-            </p>
-        </div>
-    </div>
-    <div class="container">
         <div class="card" class:dark-mode={toggleState} id="UPDATES">
             <h2>Hack-A-Damien</h2>
             <p class="desc">Hack-A-Damien is a 24-Hour Game Development Hackathon right here on the @UAlbany campus sponsored by IBM, the UAlbany College of Nanotechnology, Science, and Engineering, and Grimbar Interactive! Sign-up for UAlbany's inaugural student-hosted hackathon, hosted by UAlbany IEEE. We welcome all colleges and universities to join us- Collaborate with others to build games, test your skills, and win!</p>
@@ -583,20 +586,32 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="card" class:dark-mode={toggleState}>
+            <h2>Schedule</h2>
+            <div>
+                <img class="schedule-img" src="/2-schedule.jpg" alt="Schedule">
+                <img class="schedule-img" src="/3-sponsored-workshops.jpg" alt="Schedule">
+                <img class="schedule-img" src="/4-ualbany-workshops_-_cropped.jpg" alt="Schedule">
+                <p></p>
+            </div>
+        </div>
+    </div>
     
     <div class="container">
         <div class="card" class:dark-mode={toggleState}>
             <h2>Prizes</h2>
-            <p>General Prizes:</p>
-            <li>Overall Winner - 100 Dollars, Plaque, and Certificate</li>
-            <li>Second Place - Certificate</li>
-            <li>Third Place - Certificate</li>
+            <p class="info">General Prizes:</p>
+            <li class="desc">Overall Winner - 100 Dollars, Plaque, and Certificate</li>
+            <li class="desc">Second Place - Certificate</li>
+            <li class="desc">Third Place - Certificate</li>
             <p>There will be special prizes for certain categories, such as:</p>
-            <li>Best Physical Game - Certificate</li>
-            <li>Best Original Art - Certificate</li>
-            <li>Best Game Made in Roblox - 50 dollars and Certificate</li>
-            <li>Best Mobile game - Certificate</li>
-            <li>Best Game concept - Certificate</li>
+            <li class="desc">Best Physical Game - Certificate</li>
+            <li class="desc">Best Original Art - Certificate</li>
+            <li class="desc">Best Game Made in Roblox - 50 dollars and Certificate</li>
+            <li class="desc">Best Mobile game - Certificate</li>
+            <li class="desc">Best Game concept - Certificate</li>
             <p>Prizes are non-negotiable. You can give it away or throw it out if you want, but that would really hurt our feelings.</p>
         </div>
     </div>

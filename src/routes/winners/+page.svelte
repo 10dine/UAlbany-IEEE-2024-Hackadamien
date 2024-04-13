@@ -49,7 +49,7 @@
         color: white;
         text-decoration: none;
         transition: color 0.3s, background-color 0.3s;
-        margin-right: 20px; 
+        margin-right: 10px; 
         padding: 10px 20px; 
     }
 
