@@ -363,6 +363,10 @@
             <h2>Judges</h2>
             <div class="staff-content">
                 <p><a href="https://jamesoswald.dev/">James Oswald</a> (Rensselaer AI and Reasoning Laboratory at Rensselaer Polytechnic Institute)</p>
+                <p>Nathan Dahlin (Assistant Professor, Electrical and Computer Engineering at UAlbany)</p>
+                <p>Mark Speedy (Technical Account Manager, Warner Brothers Games)</p>
+                <p>Kimberly Cornell (Assistant Professor, College of Emergency Preparedness, Homeland Security and Cybersecurity, Department of Information Sciences and Technology, Department of Computer Science)</p>
+                <p>Michael Leczinsky (Professor of Practice, College of Emergency Preparedness, Homeland Security and Cybersecurity, Department of Information Sciences and Technology)</p>
                 <p class="infos"></p>
             </div>
             <br />

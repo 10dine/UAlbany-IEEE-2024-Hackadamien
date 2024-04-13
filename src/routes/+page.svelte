@@ -469,6 +469,7 @@
         <div class="header-text">
             <span class="headersss"><a href="/">Homepage</a></span>
             <span class="headersss"><a href="/contact">Contact</a></span>
+            <span class="headersss"><a href="/sponsors">Sponsors</a></span>
             <!---<span class="headersss"><a href="/winners">Winners</a></span>-->
         </div>
         <div class="buttons">
@@ -582,95 +583,24 @@
             </div>
         </div>
     </div>
-    <!--
+    
     <div class="container">
         <div class="card" class:dark-mode={toggleState}>
-            <img class="tri-image" id="registration-image" src="/register.png" alt="">
-            <h2>Registration Process</h2>
-            -<p class="infos">If you wish to participate, please fill out this form <a href="https://forms.gle/m5Vijy61EEJ6VF7N6">here</a></p>
-            <p></p>
+            <h2>Prizes</h2>
+            <p>General Prizes:</p>
+            <li>Overall Winner - 100 Dollars, Plaque, and Certificate</li>
+            <li>Second Place - Certificate</li>
+            <li>Third Place - Certificate</li>
+            <p>There will be special prizes for certain categories, such as:</p>
+            <li>Best Physical Game - Certificate</li>
+            <li>Best Original Art - Certificate</li>
+            <li>Best Game Made in Roblox - 50 dollars and Certificate</li>
+            <li>Best Mobile game - Certificate</li>
+            <li>Best Game concept - Certificate</li>
+            <p>Prizes are non-negotiable. You can give it away or throw it out if you want, but that would really hurt our feelings.</p>
         </div>
     </div>
-    -->
-    <div class="container">
-        <div class="card" class:dark-mode={toggleState} id="Schedule">
-            <h2>Schedule</h2>
-            <h3>(Subject to Change)</h3>
-            <h4>APRIL 12th</h4>
-            <p class="infos">Arrive for Pre-Hackathon Program - 3:30PM</p>
-            <p class="infos">Grimbar Unity Mobile - 4:15-5PM</p>
-            <p class="infos">Resouce Workshop (B010) - 5-5:30PM</p>
-            <p class="infos">Team Building Workshop (B010) - 5:35-6:20PM</p>
-            <p class="infos">Dinner (Cafe area) - 5:45-6PM</p>
-            <p class="infos">C++ Web Assembly & Raylib - 6:30-7:20PM</p>
-            <p class="infos">Unity Workshop - 7:20-8:15PM</p>
-
-            <h4>APRIL 13th</h4>
-            <p class="infos">Opening doors - 8:30AM</p>
-            <p class="infos">~Breakfast available~</p>
-            <p class="infos">Check-in - 8:30-10:45AM</p>
-            <p class="infos">Vendor Fair (Atrium) - 9AM-12PM</p>
-            <p class="infos">Workshops (Training room)</p>
-            <lu>
-                <li class="infos2">IBM - 10:15-10:55AM</li>
-                <li class="infos2">Velan Studios Q&A - 11:30AM-12PM</li>
-                <!---<li class="infos2">Dean's Son-in-law | Nick's Workshop</li>-->
-            </lu>
-            <p class="infos">Opening Ceremony (Training Room) - 11-11:30AM</p>
-            <p class="infos">Brainstorming sessions/free time (Atrium) - 11:30AM-12PM</p>
-            <p class="infos">Competition begins (B010) - 12:15PM</p>
-            <p class="infos">~Lunch (Atrium) - 1PM~</p>
-            <p class="infos">Karaoke - 6PM</p>
-            <p class="infos">~Dinner (Cafe area) - 7PM~</p>
-            <p class="infos">Jeopardy - 8PM</p>
-            <p class="infos">Worst Code Workshop - 9PM</p>
-            <p class="infos">~ALL PARTICIPANTS WILL BE MOVED DOWNSTAIRS~</p>
-            <p class="infos">~Midnight snacks - 12AM~</p>
-
-            <h4>APRIL 14th</h4>
-            <p class="infos">~Breakfast - 7AM~</p>
-            <p class="infos">Submissions open - 9AM</p>
-            <p class="infos">Completition Officials Ends - 12:15PM</p>
-            <p class="infos">Judges review submissions - 1-3PM</p>
-            <p class="infos">Closing Ceremony/Awards - 3-3:30PM</p>
-            <p class="infos"></p>
-        </div>
-    </div>
-    <div class="container">
-        <div class="card" class:dark-mode={toggleState} id="Sponsors">
-            <h2>Sponsors</h2>
-            <div class="logos">
-                <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
-                <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
-                <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
-                <img class="sponsor-img" src="/Wolfjaw-Studios-logo.png" alt="Wolfjaw Studios Logo">
-                <img class="sponsor-img" src="/Celsius-logo.png" alt="Celsius Logo">
-                <img class="sponsor-img" src="/Warner-Bros-Games-Logo.png" alt="Warner Bros Games Logo">
-                <img class="sponsor-img" src="/Velan-Studios-logo.png" alt="Velan Studios Logo">
-                <img class="sponsor-img" src="/Meraki-logo.png" alt="Meraki Logo">
-                <img class="sponsor-img" src="/Meta-logo.png" alt="Meta Logo">
-            </div>
-        </div>
-    </div>
-    <!--
-    <div class ="main-container">
-        <div class="left-container">
-            <div class="card">
-                <p>College of Nanotechnology, Science, and Engineering (CNSE)</p>
-            </div>
-        </div>
-        <div class="middle-container">
-            <div class="card">
-                <p>International Business Machines Corporation (IBM)</p>
-            </div>
-        </div>
-        <div class="right-container">
-            <div class="card">
-                <p>Grimbar Interactive</p>
-            </div>
-        </div>
-    </div>
-    -->
+    
     <div class="container">
     </div>
 </main>
