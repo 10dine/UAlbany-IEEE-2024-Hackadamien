@@ -1,10 +1,11 @@
 <script>
 	import { onMount } from "svelte";
 
-    let predate = "April 12th, 2024";
-    let date = "April 13-14th, 2024";
+    let predate = "February 21, 2025";
+    let date = "February 22-23, 2025";
     let location = "ETEC Building, University at Albany";
-    let targetDate = new Date("April 13, 2024 09:00:00").getTime();
+    // let targetDate = new Date("April 13, 2024 09:00:00").getTime();
+    let targetDate = new Date("February 22, 2025 09:00:00").getTime();
     let timeLeft = calculateTimeLeft();
 
     let toggleState = true; // Set initial value to true
@@ -537,13 +538,11 @@
     <div class="container">
         <div class="card" class:dark-mode={toggleState} id="UPDATES">
             <h2>Hack-A-Damien</h2>
-            <p class="desc">Hack-A-Damien is a 24-Hour Game Development Hackathon right here on the @UAlbany campus sponsored by IBM, the UAlbany College of Nanotechnology, Science, and Engineering, and Grimbar Interactive! Sign-up for UAlbany's inaugural student-hosted hackathon, hosted by UAlbany IEEE. We welcome all colleges and universities to join us- Collaborate with others to build games, test your skills, and win!</p>
-            <p class="desc">Spectators can come visit on April 13 and 14 in ETEC as well! Be sure to visit our ever-growing sponsors and tabled industry partners: FBI, US Space Force, College of Nanotechnology, Science, and Engineering, IBM, and the list is still growing!</p>
+            <p class="desc">PLACEHOLDER - PUT WHAT IS GOING ON HERE PLEASE</p> 
+	    <p class="desc">PLACEHOLDER - something something specatators come join. See our sponsor tables (RIP FBI) etc etc</p>
                 
 
-            <p>THIS WEBSITE WILL CONTINUOUSLY BE UPDATED FOR MORE INFORMATION!</p>
             <p>RULES ARE SUBJECT TO CHANGE</p>
-            <p>PLEASE REVISIT FOR UPDATES</p>
             <p></p>
         </div>
     </div>
@@ -626,12 +625,6 @@
             <h2>Sponsors</h2>
             <div class="logos">
                 <img class="sponsor-img" src="/cnse.png" alt="College of Nanotechnology, Science, and Engineering (CNSE)">
-                <img class="sponsor-img" src="/ibm.png" alt="International Business Machines Corporation (IBM)">
-                <img class="sponsor-img" src="/grimbar_interactive.png" alt="Grimbar Interactive">
-                <img class="sponsor-img" src="/Wolfjaw-Studios-logo.png" alt="Wolfjaw Studios Logo">
-                <img class="sponsor-img" src="/Celsius-logo.png" alt="Celsius Logo">
-                <img class="sponsor-img" src="/Warner-Bros-Games-Logo.png" alt="Warner Bros Games Logo">
-                <img class="sponsor-img" src="/Velan-Studios-logo.png" alt="Velan Studios Logo">
             </div>
         </div>
     </div>
