@@ -327,30 +327,12 @@
             <div class="staff-content">
                 <h3>Hack-A-Damien Committee</h3>
                 <p></p>
-                <p>Chair - Vincent Jiang</p>
-                <p>Vice Chair - Liam Vaitkus</p>
+                <p>Chair - Monzir Mekki</p>
+                <p>Vice Chair - Muwahid Seraj</p>
                 <p>Volunteer Lead - Ava McCarthy</p>
-                <p>Webmaster - Joshua Angulo</p>
-                <p>Server Administrator - Ishtyaq Khan</p>
-                <p>Graphic Designer - Alice Wang</p>
                 <h3>Volunteers</h3>
-                <p></p>
-                <p>Joren Cruz (IEEE)</p>
-                <p>Muwahid Seraj (IEEE)</p>
-                <p>Daniel Diaz (IEEE)</p>
-                <p>Nick Zizic (IEEE)</p>
-                <p>Liam Mengler (CDO)</p>
-                <p>Samantha Solanto (CDO)</p>
-                <p>Monzir Mekki (IEEE)</p>
-                <p>Benjamin Babu (IEEE)</p>
-                <p>Zain Ahmad (IEEE)</p>
-                <p>Anabelle Chen (IEEE)</p>
-                <p>Jocelyn Lahaise (IEEE)</p>
-                <p>Dylan Tarace (CDO)</p>
-                <p>Maurice Ogada (IEEE)</p>
-                <p>Nisanth Nadimpalli (CDO)</p>
-                <p>Shoshanna Kusa (CDO)</p>
-                <p>Phi Phan (IEEE)</p>
+                <p>Ruby Engelhart (IEEE)</p>
+		<p>Cole Brazinski (IEEE)</p>
                 <p></p>
                 <p></p>
             </div>
@@ -362,7 +344,6 @@
             <br />
             <h2>Judges</h2>
             <div class="staff-content">
-                <p><a href="https://jamesoswald.dev/">James Oswald</a> (Rensselaer AI and Reasoning Laboratory at Rensselaer Polytechnic Institute)</p>
                 <p class="infos"></p>
             </div>
             <br />
@@ -377,15 +358,6 @@
                 <div class="Discord-content">
                     <p><a class="Discord" href="https://discord.gg/S5rjbnrPUK" target="_blank">Hack-A-Damien Discord Server</a></p>
                 </div>
-            </div>
-            <div>
-                <p>Reach out to Liam Vaitkus, Vincent Jiang or Ishtyaq Khan for any questions via email.</p>
-                <p><a class="emails" href="mailto:lvaitkus@albany.edu" target="_blank">Liam Vaitkus</a>: lvaitkus@albany.edu</p>
-                <p><a class="emails" href="mailto:vjiang@albany.edu" target="_blank">Vincent Jiang</a>: vjiang@albany.edu</p>
-                <p><a class="emails" href="mailto:ikhan4@albany.edu" target="_blank">Ishtyaq Khan</a>: ikhan4@albany.edu</p>
-            </div>
-            <div class="Discord-content">
-                <p><a class="Discord" href="https://discord.gg/FJ7GpWgwSa" target="_blank">IEEE Discord Server</a></p>
             </div>
         </div>
     </div>
